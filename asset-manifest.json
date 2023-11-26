@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/profile/static/css/main.1c9ff31a.css",
-    "main.js": "/profile/static/js/main.a6695a2f.js",
+    "main.js": "/profile/static/js/main.cfde8712.js",
     "static/media/my-avatar.png": "/profile/static/media/my-avatar.086f452c27fca5718057.png",
     "static/media/Abdelrahman eid (CV).pdf": "/profile/static/media/Abdelrahman eid (CV).6e49b4abda3c383eadc6.pdf",
     "index.html": "/profile/index.html",
     "main.1c9ff31a.css.map": "/profile/static/css/main.1c9ff31a.css.map",
-    "main.a6695a2f.js.map": "/profile/static/js/main.a6695a2f.js.map"
+    "main.cfde8712.js.map": "/profile/static/js/main.cfde8712.js.map"
   },
   "entrypoints": [
     "static/css/main.1c9ff31a.css",
-    "static/js/main.a6695a2f.js"
+    "static/js/main.cfde8712.js"
   ]
 }
