@@ -108,7 +108,7 @@ export default function Skills() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <section className="text-gray-200 ">
+          <section className="text-gray-200 2xl:h-screen ">
             <div className="max-w-6xl mx-auto px-5  ">
               <div className="text-center mb-20">
                 <h1 className="flex max-sm:justify-between max-sm:flex-row max-sm:items-center  flex-col-reverse align-items-center title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">

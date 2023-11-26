@@ -135,12 +135,13 @@ export default function Contact() {
                  🛠️  Skills 
                 </Link>
               </div>
+             
               <div className="    p-3 text-center">
                 <Link
-                  to={"/contact"}
+                  to={"/projects"}
                   className="bg-transparent  hover:bg-slate-800 hover:border-slate-500 text-slate-400 font-semibold hover:text-white p-2 m-2 px-4 border border-gray-700 hover:border-transparent rounded text-base transition duration-300 "
                 >
-                 ☎️  contact 
+                 🚀  Projects 
                 </Link>
               </div>
             </div>
