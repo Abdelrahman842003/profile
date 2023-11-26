@@ -214,7 +214,7 @@ const HomePage = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="container mx-auto px-4" 
+          className="container mx-auto px-4"
         >
           <div
             className=" relative flex flex-col min-w-0 break-words bg-slate-800 w-full mb-6 shadow-2xl rounded-lg -mt-64"
@@ -249,24 +249,24 @@ const HomePage = () => {
                     </button>
                   </div>
                 </div>
-                <div className="max-md:py-1 max-md:pt-1 lg:w-4/12    max-sm:py-1 max-sm:pt-1 max-sm:flex-col lg:flex-col flex justify-center py-4  pt-8">
-                  <Link
-                    to={"/skills"}
-                    className="bg-transparent m-1 hover:bg-slate-800 hover:border-slate-500 text-slate-400 font-semibold hover:text-white py-2 px-4 border border-gray-700 hover:border-transparent rounded text-base transition duration-300 "
-                  >
-                  🛠️  Skills
-                  </Link>
+                <div className="max-md:py-1 max-md:pt-1 lg:w-4/12     max-sm:py-1 max-sm:pt-1 max-sm:flex-col lg:flex-col flex justify-center py-4  pt-8">
                   <Link
                     to={"/projects"}
                     className="  bg-transparent m-1 hover:bg-slate-800 hover:border-slate-500 text-slate-400 font-semibold hover:text-white py-2 px-4 border border-gray-700 hover:border-transparent rounded text-base transition duration-300 "
                   >
-                  🚀  Projects
-                  </Link>
+                    🚀 Projects
+                  </Link>{" "}
                   <Link
                     to={"/contact"}
                     className="bg-transparent m-1 hover:bg-slate-800 hover:border-slate-500 text-slate-400 font-semibold hover:text-white py-2 px-4 border border-gray-700 hover:border-transparent rounded text-base transition duration-300 "
                   >
-                  ☎️  Contact
+                    ☎️ Contact
+                  </Link>{" "}
+                  <Link
+                    to={"/skills"}
+                    className="bg-transparent m-1 hover:bg-slate-800 hover:border-slate-500 text-slate-400 font-semibold hover:text-white py-2 px-4 border border-gray-700 hover:border-transparent rounded text-base transition duration-300 "
+                  >
+                    🛠️ Skills
                   </Link>
                 </div>
               </div>
