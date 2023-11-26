@@ -214,10 +214,10 @@ const HomePage = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="container mx-auto px-4"
+          className="container mx-auto px-4" 
         >
           <div
-            className="relative flex flex-col min-w-0 break-words bg-slate-800 w-full mb-6 shadow-2xl rounded-lg -mt-64"
+            className=" relative flex flex-col min-w-0 break-words bg-slate-800 w-full mb-6 shadow-2xl rounded-lg -mt-64"
             style={{ backgroundColor: "rgba(47, 53, 66, 0.3)" }}
           >
             <div className="px-6">
@@ -254,24 +254,24 @@ const HomePage = () => {
                     to={"/skills"}
                     className="bg-transparent m-1 hover:bg-slate-800 hover:border-slate-500 text-slate-400 font-semibold hover:text-white py-2 px-4 border border-gray-700 hover:border-transparent rounded text-base transition duration-300 "
                   >
-                    Skills
+                  🛠️  Skills
                   </Link>
                   <Link
                     to={"/projects"}
                     className="  bg-transparent m-1 hover:bg-slate-800 hover:border-slate-500 text-slate-400 font-semibold hover:text-white py-2 px-4 border border-gray-700 hover:border-transparent rounded text-base transition duration-300 "
                   >
-                    Projects
+                  🚀  Projects
                   </Link>
                   <Link
                     to={"/contact"}
                     className="bg-transparent m-1 hover:bg-slate-800 hover:border-slate-500 text-slate-400 font-semibold hover:text-white py-2 px-4 border border-gray-700 hover:border-transparent rounded text-base transition duration-300 "
                   >
-                    Contact
+                  ☎️  Contact
                   </Link>
                 </div>
               </div>
               <div className="max-md:mt-5 max-lg:mt-5 max-sm:mt-5  text-center mt-12">
-                <h3 className="max-md:text-xl max-lg:text-xl  max-sm:text-sm text-4xl font-semibold leading-normal  text-slate-600 mb-2">
+                <h3 className="max-md:text-xl max-lg:text-xl  max-sm:text-sm text-4xl font-semibold leading-normal  text-slate-400 mb-2">
                   Welcome , I am <span> Abdelrahman Eid</span>{" "}
                 </h3>
                 <div className="m-4 relative top-15 inset-0 mx-auto w-full h-20 flex items-center justify-center filter blur-[0.6px]">

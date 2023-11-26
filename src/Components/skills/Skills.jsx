@@ -119,7 +119,7 @@ export default function Skills() {
                         to={"/"}
                         className="bg-transparent hover:bg-slate-800 hover:border-slate-500 text-slate-400 font-semibold hover:text-white py-2 px-4 border border-gray-700 hover:border-transparent rounded text-base transition duration-300 "
                       >
-                        Home 🏠
+                      🏠  Home 
                       </Link>
                     </div>
                     <div className=" max-md:py-1 max-md:pt-1 max-lg:py-1 max-lg:pt-1 max-sm:p-2 max-sm:mr-1 max-sm:text-sm mr-4 p-3 text-center">
@@ -127,7 +127,7 @@ export default function Skills() {
                         to={"/projects"}
                         className="bg-transparent hover:bg-slate-800 hover:border-slate-500 text-slate-400 font-semibold hover:text-white py-2 px-4 border border-gray-700 hover:border-transparent rounded text-base transition duration-300 "
                       >
-                        Projects 🚀
+                      🚀  Projects 
                       </Link>
                     </div>
                     <div className=" max-md:py-1 max-md:pt-1 max-lg:py-1 max-lg:pt-1 max-sm:p-2 max-sm:mr-1 max-sm:text-sm mr-4 p-3 text-center">
@@ -135,7 +135,7 @@ export default function Skills() {
                         to={"/contact"}
                         className="bg-transparent hover:bg-slate-800 hover:border-slate-500 text-slate-400 font-semibold hover:text-white py-2 px-4 border border-gray-700 hover:border-transparent rounded text-base transition duration-300 "
                       >
-                        contact ☎️
+                      ☎️  contact 
                       </Link>
                     </div>
                   </div>

@@ -114,17 +114,17 @@ export default function Contact() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="flex items-center justify-center p-4"
+          className="flex items-center justify-center p-4 max-sm:flex-col"
         >
-          <h1 className="flex ld:text-lg  max-lg:flex-col sm:flex-col sm:items-center  flex-col-reverse align-items-center title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-2xl sm:leading-none md:text-5xl">
+          <h1 className="flex ld:text-lg  max-lg:flex-col sm:flex-col sm:items-center   flex-col-reverse align-items-center title-font  mb-4 text-4xl font-extrabold leading-10 tracking-tight sm:text-2xl sm:leading-none md:text-5xl">
             Contact Me
-            <div className="flex flex-col items-center 2xl:flex-row gap-1 sm:flex-col ">
+            <div className="flex  2xl:flex-row  flex-col items-center  gap-1 sm:flex-col ">
               <div className="   p-3 text-center">
                 <Link
                   to={"/"}
                   className="bg-transparent  hover:bg-slate-800 hover:border-slate-500 text-slate-400 font-semibold hover:text-white p-2 m-2 px-4 border border-gray-700 hover:border-transparent rounded text-base transition duration-300 "
                 >
-                  Home 🏠
+                 🏠  Home 
                 </Link>
               </div>
               <div className="    p-3 text-center">
@@ -132,7 +132,7 @@ export default function Contact() {
                   to={"/skills"}
                   className="bg-transparent  hover:bg-slate-800 hover:border-slate-500 text-slate-400 font-semibold hover:text-white p-2 m-2 px-4 border border-gray-700 hover:border-transparent rounded text-base transition duration-300 "
                 >
-                  Skills 🛠️
+                 🛠️  Skills 
                 </Link>
               </div>
               <div className="    p-3 text-center">
@@ -140,12 +140,12 @@ export default function Contact() {
                   to={"/contact"}
                   className="bg-transparent  hover:bg-slate-800 hover:border-slate-500 text-slate-400 font-semibold hover:text-white p-2 m-2 px-4 border border-gray-700 hover:border-transparent rounded text-base transition duration-300 "
                 >
-                  contact ☎️
+                 ☎️  contact 
                 </Link>
               </div>
             </div>
           </h1>
-          <div className="mx-auto w-full max-w-[380px]">
+          <div className="mx-auto w-full max-w-[380px] h-screen ">
             <form
               onSubmit={handleSubmit}
               action="https://formbold.com/s/FORM_ID"
